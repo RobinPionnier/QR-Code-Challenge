@@ -8,13 +8,15 @@ body {
 
 #white-container {
 	background-color: hsl(0, 0%, 100%);
-	width:300px;
+	width:350px;
 	height:auto;
 	margin:25px auto;
 	border-radius:20px;
 	display:flex;
 	flex-direction:column;
 	box-shadow:0 0 20px lightgray;
+	margin-top:50vh;
+	transform: translateY(-25%);
 }
 
 #qr-code-container {
